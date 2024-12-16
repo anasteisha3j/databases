@@ -1,0 +1,52 @@
+<html>
+   <body>
+      <h2>Список читачів та книг</h2>
+      <h3>Читач:</h3>
+      <p>
+         <strong>Номер:</strong>6<br/>
+         <strong>Ім'я:</strong>Анастасія<br/>
+         <strong>Прізвище:</strong>Харитонова<br/>
+         <strong>не повернені книги:</strong>
+         <br/>
+                                    - Хімія.11 клас<strong>автора:</strong>М.М. Савчин</p>
+      <h3>Читач:</h3>
+      <p>
+         <strong>Номер:</strong>8<br/>
+         <strong>Ім'я:</strong>Олена<br/>
+         <strong>Прізвище:</strong>Капелюх<br/>
+         <strong>не повернені книги:</strong>
+         <br/>
+                                    - Астрономія.11 клас<strong>автора:</strong>М. Пришляк</p>
+   </body>
+</html>
+
+
+<!--<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+ <xsl:template match="/">
+      <html>
+          <body>
+                <h2>Список читачів та книг</h2>
+           <xsl:for-each select="readers/reader">
+            <xsl:choose>
+                 <xsl:when test="books/book_info[not(@returned)]">
+                        <h3>Читач:</h3>
+                         <p>
+                            <strong>Номер:</strong> <xsl:value-of select="position()"/><br/>
+                                <strong>Ім'я:</strong> <xsl:value-of select="first_name"/><br/>
+                                <strong>Прізвище:</strong> <xsl:value-of select="last_name"/><br/>
+                                <strong>не повернені книги:</strong>
+                                <xsl:for-each select="books/book_info[not(@returned)]">
+                                    <br/>
+                                    - <xsl:value-of select="book_title"/> <strong>автора:</strong> <xsl:value-of select="book_author"/> 
+ 
+                                </xsl:for-each>
+                            </p>
+                        </xsl:when>
+                    </xsl:choose>
+                </xsl:for-each>
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>-->
+
+

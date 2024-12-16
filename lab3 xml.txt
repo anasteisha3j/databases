@@ -1,0 +1,89 @@
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<readers>
+  <reader>
+    <reader_id>111121</reader_id>
+    <first_name>Артур                                             </first_name>
+    <last_name>Хара</last_name>
+    <book_title>Математика.11 клас</book_title>
+    <book_author>О.С. Істер</book_author>
+    <returned>2024-02-15T00:00:00</returned>
+  </reader>
+  <reader>
+    <reader_id>111162</reader_id>
+    <first_name>Назар                                             </first_name>
+    <last_name>Труш</last_name>
+    <book_title>Астрономія.11 клас</book_title>
+    <book_author>М. Пришляк</book_author>
+    <returned>2024-02-13T00:00:00</returned>
+  </reader>
+  <reader>
+    <reader_id>111342</reader_id>
+    <first_name>Вікторія                                          </first_name>
+    <last_name>Ліщ</last_name>
+    <book_title>Я(Романтика)</book_title>
+    <book_author>Микола Хвильовий</book_author>
+    <returned>2024-02-15T00:00:00</returned>
+  </reader>
+  <reader>
+    <reader_id>111121</reader_id>
+    <first_name>Артур                                             </first_name>
+    <last_name>Хара</last_name>
+    <book_title>Фізика.11 клас</book_title>
+    <book_author>В.Г. Бар'яхтар</book_author>
+    <returned>2024-09-10T00:00:00</returned>
+  </reader>
+  <reader>
+    <reader_id>111734</reader_id>
+    <first_name>Олена                                             </first_name>
+    <last_name>Каштан</last_name>
+    <book_title>Астрономія.11 клас</book_title>
+    <book_author>М. Пришляк</book_author>
+    <returned>2024-09-10T00:00:00</returned>
+  </reader>
+  <reader>
+    <reader_id>111123</reader_id>
+    <first_name>Анастасія                                         </first_name>
+    <last_name>Харитонова</last_name>
+    <book_title>Хімія.11 клас</book_title>
+    <book_author>М.М. Савчин</book_author>
+  </reader>
+  <reader>
+    <reader_id>111123</reader_id>
+    <first_name>Анастасія                                         </first_name>
+    <last_name>Харитонова</last_name>
+    <book_title>Червоне і чорне</book_title>
+    <book_author>Стендаль</book_author>
+    <returned>2024-09-10T00:00:00</returned>
+  </reader>
+  <reader>
+    <reader_id>111764</reader_id>
+    <first_name>Олена                                             </first_name>
+    <last_name>Капелюх</last_name>
+    <book_title>Астрономія.11 клас</book_title>
+    <book_author>М. Пришляк</book_author>
+  </reader>
+  <reader>
+    <reader_id>111142</reader_id>
+    <first_name>Андрій                                            </first_name>
+    <last_name>Юр</last_name>
+    <book_title>Українська мова.9 клас</book_title>
+    <book_author>О. Авраменко</book_author>
+    <returned>2024-09-15T00:00:00</returned>
+  </reader>
+  <reader>
+    <reader_id>111764</reader_id>
+    <first_name>Олена                                             </first_name>
+    <last_name>Капелюх</last_name>
+    <book_title>Математика.11 клас</book_title>
+    <book_author>О.С. Істер</book_author>
+    <returned>2024-09-15T00:00:00</returned>
+  </reader>
+  <reader>
+    <reader_id>111764</reader_id>
+    <first_name>Олена                                             </first_name>
+    <last_name>Капелюх</last_name>
+    <book_title>Українська мова.9 клас</book_title>
+    <book_author>О. Авраменко</book_author>
+    <returned>2024-09-16T00:00:00</returned>
+  </reader>
+</readers>

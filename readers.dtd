@@ -1,0 +1,15 @@
+<!DOCTYPE readers [
+<!ELEMENT readers (reader*)>
+
+<!ELEMENT reader (reader_id, first_name, last_name,books)>
+<!ELEMENT books (book_info+)>
+<!ELEMENT book_info (book_title,book_author)>
+
+<!ATTLIST book_info returned CDATA #IMPLIED>
+
+<!ELEMENT reader_id (#PCDATA)>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT book_title (#PCDATA)>
+<!ELEMENT book_author (#PCDATA)>
+]>

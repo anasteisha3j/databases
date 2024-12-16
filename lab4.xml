@@ -1,0 +1,134 @@
+<readers>
+  <reader>
+    <reader_id>111121</reader_id>
+    <first_name>Артур</first_name>
+    <last_name>Хара</last_name>
+    <books>
+      <book_info returned="2024-02-15T00:00:00">
+        <book_title>Математика.11 клас</book_title>
+        <book_author>О.С. Істер</book_author>
+      </book_info>
+    </books>
+  </reader>
+  <reader>
+    <reader_id>111162</reader_id>
+    <first_name>Назар</first_name>
+    <last_name>Труш</last_name>
+    <books>
+      <book_info returned="2024-02-13T00:00:00">
+        <book_title>Астрономія.11 клас</book_title>
+        <book_author>М. Пришляк</book_author>
+      </book_info>
+    </books>
+  </reader>
+  <reader>
+    <reader_id>111342</reader_id>
+    <first_name>Вікторія</first_name>
+    <last_name>Ліщ</last_name>
+    <books>
+      <book_info returned="2024-02-15T00:00:00">
+        <book_title>Я(Романтика)</book_title>
+        <book_author>Микола Хвильовий</book_author>
+      </book_info>
+    </books>
+  </reader>
+  <reader>
+    <reader_id>111121</reader_id>
+    <first_name>Артур</first_name>
+    <last_name>Хара</last_name>
+    <books>
+      <book_info returned="2024-09-10T00:00:00">
+        <book_title>Фізика.11 клас</book_title>
+        <book_author>В.Г. Бар'яхтар</book_author>
+      </book_info>
+    </books>
+  </reader>
+  <reader>
+    <reader_id>111734</reader_id>
+    <first_name>Олена</first_name>
+    <last_name>Каштан</last_name>
+    <books>
+      <book_info returned="2024-09-10T00:00:00">
+        <book_title>Астрономія.11 клас</book_title>
+        <book_author>М. Пришляк</book_author>
+      </book_info>
+    </books>
+  </reader>
+  <reader>
+    <reader_id>111123</reader_id>
+    <first_name>Анастасія</first_name>
+    <last_name>Харитонова</last_name>
+    <books>
+      <book_info>
+        <book_title>Хімія.11 клас</book_title>
+        <book_author>М.М. Савчин</book_author>
+      </book_info>
+    </books>
+  </reader>
+  <reader>
+    <reader_id>111123</reader_id>
+    <first_name>Анастасія</first_name>
+    <last_name>Харитонова</last_name>
+    <books>
+      <book_info returned="2024-09-10T00:00:00">
+        <book_title>Червоне і чорне</book_title>
+        <book_author>Стендаль</book_author>
+      </book_info>
+    </books>
+  </reader>
+  <reader>
+    <reader_id>111764</reader_id>
+    <first_name>Олена</first_name>
+    <last_name>Капелюх</last_name>
+    <books>
+      <book_info>
+        <book_title>Астрономія.11 клас</book_title>
+        <book_author>М. Пришляк</book_author>
+      </book_info>
+    </books>
+  </reader>
+  <reader>
+    <reader_id>111142</reader_id>
+    <first_name>Андрій</first_name>
+    <last_name>Юр</last_name>
+    <books>
+      <book_info returned="2024-09-15T00:00:00">
+        <book_title>Українська мова.9 клас</book_title>
+        <book_author>О. Авраменко</book_author>
+      </book_info>
+    </books>
+  </reader>
+  <reader>
+    <reader_id>111764</reader_id>
+    <first_name>Олена</first_name>
+    <last_name>Капелюх</last_name>
+    <books>
+      <book_info returned="2024-09-15T00:00:00">
+        <book_title>Математика.11 клас</book_title>
+        <book_author>О.С. Істер</book_author>
+      </book_info>
+    </books>
+  </reader>
+  <reader>
+    <reader_id>111764</reader_id>
+    <first_name>Олена</first_name>
+    <last_name>Капелюх</last_name>
+    <books>
+      <book_info returned="2024-09-16T00:00:00">
+        <book_title>Українська мова.9 клас</book_title>
+        <book_author>О. Авраменко</book_author>
+      </book_info>
+    </books>
+  </reader>
+</readers>
+
+
+
+<!--xpath 
+1.//reader[books/book_info[not(@returned)]]/first_name|//reader[books/book_info[not(@returned)]]/last_name | //reader[books/book_info[not(@returned)]]//book_title
+2.count(//reader[books/book_info[@returned]])
+3.//book_info[contains(book_author, "Авраменко")]
+4.//reader[first_name="Олена"]/last_name | //reader[first_name="Олена"]/books/book_info/book_title
+5.//reader/concat(first_name," ",last_name,": ",books/book_info/book_title," - ",books/book_info/book_author)
+-->
+

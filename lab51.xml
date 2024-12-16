@@ -1,0 +1,49 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="reader_id" type="xsd:string"/>
+    <xsd:element name="first_name" type="xsd:string"/>
+    <xsd:element name="last_name" type="xsd:string"/>
+    <xsd:element name="book_title" type="xsd:string"/>
+    <xsd:element name="book_author" type="xsd:string"/>
+    <xsd:attribute name="returned" type="xsd:dateTime"/>
+  
+    <xsd:element name="readers">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="reader" maxOccurs="unbounded" minOccurs="0"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+ 
+    <xsd:element name="reader">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="reader_id"/>
+                <xsd:element ref="first_name"/>
+                <xsd:element ref="last_name"/>
+                <xsd:element ref="books"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="books">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="book_info" maxOccurs="unbounded" minOccurs="1"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="book_info">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="book_title"/>
+                <xsd:element ref="book_author"/>
+            </xsd:sequence>
+            <xsd:attribute name="returned">
+              <xsd:simpleType>
+                <xsd:restriction base="xsd:dateTime">
+                <xsd:maxInclusive value="2024-12-31T23:59:59"/>
+                </xsd:restriction>
+              </xsd:simpleType>
+            </xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
